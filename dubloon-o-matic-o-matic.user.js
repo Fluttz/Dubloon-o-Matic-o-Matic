@@ -25,6 +25,9 @@ for (let i = 0; i < dubloons.length-2; i++){
     checks.push(dubloons[i].children[4]);
 }
 
+//End script if no dubloons
+if (checks.length==0) return;
+
 //Hide original UI
 content.style.display = "none";
 
